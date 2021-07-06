@@ -14,8 +14,10 @@
   ],
   "author": "Arhey",
   "main": "index.json",
-  "repository": "git://github.com/freearhey/iso-639-3.git",
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freearhey/iso-639-3.git"
+  },
   "devDependencies": {
     "concat-stream": "^2.0.0",
     "d3-dsv": "^1.0.0",
@@ -25,5 +27,9 @@
   "scripts": {
     "build": "node build",
     "test": "node test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/freearhey/iso-639-3/issues"
+  },
+  "homepage": "https://github.com/freearhey/iso-639-3#readme"
 }
